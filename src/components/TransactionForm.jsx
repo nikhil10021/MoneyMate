@@ -47,12 +47,6 @@ function TransactionForm({ onAdd }) {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
-        <input
-          type="number"
-          placeholder="I want SP 125"
-          value={amount}
-          onChange={(e) => setAmount(e.target.value)}
-        />
         <select value={type} onChange={(e) => setType(e.target.value)}>
           <option value="income">Income</option>
           <option value="expense">Expense</option>
